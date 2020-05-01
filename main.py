@@ -3,12 +3,11 @@
 
 import pandas as pd
 import shutil as sh
-import concurrent.futures
 import os,time
 
 # # # # # # # # 初期設定 # # # # # # # # #
 
-COPY = False # True - ファイルコピー, False - ファイル移動
+COPY = True # True - ファイルコピー, False - ファイル移動
 
 # # # # # # # # # # # # # # # # # # # # #
 
